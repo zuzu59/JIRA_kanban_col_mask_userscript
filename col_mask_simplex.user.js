@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         JIRA Kanban col mask Simplex
 // @namespace    none
-// @description  Masque pas les colonnes Backlog et Done. Et agrandi la colonne détails
-// @version      zf180217.1106
-// @author       Ch. Zufferey
+// @description  Dans le tableau Kanban, masque les colonnes Backlog et Done. Et agrandi la colonne détails
+// @version      zf180217.1156
+// @author       christian@zufferey.com
 // @include      https://siexop-jirat.epfl.ch/secure/RapidBoard.jspa*
 // @match        none
 // @grant        none
@@ -12,16 +12,21 @@
 // ==/UserScript==
 
 this.$ = this.jQuery = jQuery.noConflict(true);
-$(document).ready(function() {
 
-setInterval(function(){
+$(document).ready(function() {
+    // tourne toutes les 3 secondes pour être certain que les changements s'appliquent aussi après avoir cliqué dans la page :-)
+    setInterval(function(){
+    // masque la colonne Backlog
     $("li.ghx-column[data-id='134']").css("display", "none");
     $("li.ghx-column[data-column-id='134']").css("display", "none");
+    // masque la colonne Done
     $("li.ghx-column[data-id='137']").css("display", "none");
     $("li.ghx-column[data-column-id='137']").css("display", "none");
+    // agrandi la colonne détails
     $("div#ghx-detail-view").css("width", "50%");
     $("div#ghx-column-header-group").css("width", "50%");
 }, 3000);
+
 console.log("toto");
 })();
 
