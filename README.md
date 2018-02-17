@@ -1,7 +1,7 @@
 # JIRA_kanban_col_mask_userscript
 Petit usercript tout simple pour masquer certaines colonnes d'un tableau Kanban
 
-ATTENTION, ces scripts sont fait pour 'mes' tableaux Kaban sur Jira, il faudra donc les adpater en fonction de 'vos' tableaux !
+ATTENTION, ces scripts sont faits pour 'mes' tableaux Kaban sur Jira, il faudra donc les adpater en fonction de 'vos' tableaux !
 
 ## Installation
 Installer http://tampermonkey.net/ sur son browser
@@ -23,7 +23,7 @@ tableau Kanban
 
 ### Pour la version Complex
 Version plus complexe et plus difficile à adapter.
-Tout en haut à droite une il y a un checkbox à cliquer pour activer ou désactiver quand on se trouve dans le tableau 
+En haut à droite il y a un checkbox à cliquer pour activer ou désactiver quand on se trouve dans le tableau 
 Kanban.
 <br>
 ATTENTION: cette version n'est pas assez au point, elle est juste là comme exemple pour savoir comment ajouter un checkbox dans un userscript.
