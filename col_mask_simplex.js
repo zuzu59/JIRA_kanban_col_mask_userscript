@@ -8,7 +8,7 @@
 // @match        none
 // @grant        none
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
-// @downloadURL  https://github.com/zuzu59/JIRA_kanban_col_mask_userscript/col_mask_simplex.js
+// @downloadURL  https://raw.githubusercontent.com/zuzu59/JIRA_kanban_col_mask_userscript/master/col_mask_simplex.js
 // ==/UserScript==
 
 this.$ = this.jQuery = jQuery.noConflict(true);
