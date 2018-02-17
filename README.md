@@ -1,5 +1,5 @@
 # JIRA_kanban_col_mask_userscript
-Petit usercript tout simple pour masquer certaines colonnes d'un tableau Kanban
+Petit usercript tout simple pour masquer certaines colonnes d'un tableau Kanban sous JIRA
 
 ATTENTION, ces scripts sont faits pour 'mes' tableaux Kaban sur Jira, il faudra donc les adpater en fonction de 'vos' tableaux !
 
