@@ -12,6 +12,8 @@
 // @downloadURL https://raw.githubusercontent.com/epfl-dojo/EPFL_People_UserScript/master/EPFL_People.user.js
 // ==/UserScript==
 
+//toto 110155
+
 //Avoid conflicts
 this.$ = this.jQuery = jQuery.noConflict(true);
 $(document).ready(function() {
