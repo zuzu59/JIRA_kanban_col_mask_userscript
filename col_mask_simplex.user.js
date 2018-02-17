@@ -2,7 +2,7 @@
 // @name         JIRA Kanban col mask Simplex
 // @namespace    none
 // @description  Dans le tableau Kanban, masque les colonnes Backlog et Done. Et agrandi la colonne détails
-// @version      zf180217.1404
+// @version      zf180217.1406
 // @author       christian@zufferey.com
 // @include      https://siexop-jirat.epfl.ch/secure/RapidBoard.jspa*
 // @match        none

@@ -6,7 +6,7 @@ ATTENTION, ces scripts sont faits pour 'mes' tableaux Kaban sur Jira, il faudra 
 ## Installation
 Installer http://tampermonkey.net/ sur son browser
 
-Simplement cliquer sur:
+Puis simplement cliquer sur:
 
 ### Pour la version Simplex
 https://github.com/zuzu59/JIRA_kanban_col_mask_userscript/raw/master/col_mask_simplex.user.js
@@ -28,4 +28,8 @@ Kanban.
 <br>
 ATTENTION: cette version n'est pas assez au point, elle est juste là comme exemple pour savoir comment ajouter un checkbox dans un userscript.
 
+
+## Goodies
+Quelques exemples à piocher de userscript :-)<br>
+https://greasyfork.org/fr/scripts?filter_locale=1
 
